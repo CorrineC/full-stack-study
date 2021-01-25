@@ -1,6 +1,6 @@
 # What is Version Control?
 
-Version Control, a.k.a Source Code Management, is the process of tracking and implementing changes in software code. Version Control systems uses safeguards to track changes made by individual developers, by catching conflicting code and preventing loss of work due to overwrites.
+Version Control, a.k.a. Source Code Management, is the process of tracking and implementing changes in software code. Version Control systems uses safeguards to track changes made by individual developers, by catching conflicting code and preventing loss of work due to overwrites.
 
 ## Benefits of Version Control
 
@@ -18,3 +18,7 @@ The primary benefits of every good version control system are as follows.
 * Review changes before committing.
 * Use branches.
 * Agree on a workflow.
+
+# What is Git?
+
+Git is an open source version control system. It was developed by Linus Torvalds in 2005 and is the most widely used version control system of today.
