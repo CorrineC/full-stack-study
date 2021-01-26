@@ -8,16 +8,16 @@ The primary benefits of every good version control system are as follows.
 
 1. A complete change history of all files. This grants the ability to revert to previous versions of your software, which is useful in determining the root cause of more complicated bugs.
 2. Traceability. An annotated history helps future developers understand what a piece of code is doing and why it was designed to work that way. It is particularly important for integrating legacy code harmoniously into newer projects.
-3. Branching and merging. Branching allows developers to work concurrently on a project without encountering change collisions. Each branch can then be merged into the main branch, provided the changes made do not conflict. 
+3. Branching and merging. Branching allows developers to work concurrently on a project without encountering change collisions. Each branch can then be merged into the main branch, provided the changes made do not conflict.
 
 ## Best Practices
 
-* Commit often.
-* Make sure your version is the latest version.
-* Make detailed notes.
-* Review changes before committing.
-* Use branches.
-* Agree on a workflow.
+- Commit often.
+- Make sure your version is the latest version.
+- Make detailed notes.
+- Review changes before committing.
+- Use branches.
+- Agree on a workflow.
 
 # What is Git?
 
@@ -36,3 +36,15 @@ Git secures change history against accidental and malicious change with a hashin
 ## Flexibility
 
 Branches and tags are stored as part of the change history. This level of tracking, as well as Git's compatibility with a variety of existing systems and protocols, set Git apart from other version control systems.
+
+# Why Git?
+
+Git is for everyone, including, but not limited to:
+
+- Developers. With Git, each developer gets a local repository with a full history of commits. Git's distributed system enables effective workflow around feature branches.
+- Marketing.
+- Product Management.
+- Designers.
+- Customer Support.
+- Human Resources.
+- Budget Management.
