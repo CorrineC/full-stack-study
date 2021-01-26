@@ -21,4 +21,10 @@ The primary benefits of every good version control system are as follows.
 
 # What is Git?
 
-Git is an open source version control system. It was developed by Linus Torvalds in 2005 and is the most widely used version control system of today.
+Git is an open source distributed version control system. It was developed by Linus Torvalds in 2005 and is the most widely used version control system of today. It prioritizes performance, security, and flexibility in its design.
+
+## Performance
+
+Git uses a combination of delta encoding, compression, stored directory content, and metadata to format repository files and track version history. This combination makes it easy to keep track of renamed or rearranged files, as opposed to other version control systems, which only rely on the name of the file.
+
+Git is a distributed system; unlike a centralized system, development does not halt when the original goes offline. Distributed version control systems provide each developer with a complete copy of the project's source code. Developers can continue committing changes to their remote repository, and push all changes to the main repository when it's back online.
