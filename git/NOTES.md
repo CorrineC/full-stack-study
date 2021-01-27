@@ -48,3 +48,14 @@ Git is for everyone, including, but not limited to:
 - Customer Support. Bug fixes don't have to wait for the next major release anymore!
 - Human Resources. Use Git to attract new programmers!
 - Budget Management. The man hours saved with shorter development cycles is more than worth the time it takes to learn Git.
+
+# What is an SSH Key?
+
+An SSH key is a credential for the secure shell network protocol. It is used for remote communication (file transfer, network management, etc.) between machines on an unsecured network. It uses a combination of public and private key to encrypt data. The private key is not derived from the public key. SSH keys can be used in Git as lieu of a traditional password to push or pull remote repositories.
+
+## Creating an SSH Key on Mac and Linux
+
+1. Create a new SSH key using the email as a label
+2. Specify a file location to save the key
+3. Enter a secure passphrase (an additional layer of security)
+4. Add the new key to ssh-agent (keychain)
