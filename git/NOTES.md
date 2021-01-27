@@ -59,3 +59,7 @@ An SSH key is a credential for the secure shell network protocol. It is used for
 2. Specify a file location to save the key
 3. Enter a secure passphrase (an additional layer of security)
 4. Add the new key to ssh-agent (keychain)
+
+# Git Archive
+
+The `git archive` command creates an archive file from a specified reference point in a git repository. It has several output formats that utilize additional compression.
