@@ -41,8 +41,8 @@ Branches and tags are stored as part of the change history. This level of tracki
 
 Git is for everyone, including, but not limited to:
 
-- Developers. With Git, each developer gets a local repository with a full history of commits. Git's distributed system enables effective workflow around feature branches.
-- Marketing.
+- Developers. With Git, each developer gets a local repository with a full history of commits. Git's distributed system enables effective workflow around feature branches by avoiding blocking; developers don't have to wait for others' changes to be checked in. Lost repositories can also be replaced by cloning someone elses repositories. Additionally, Git has pull requests, which allow for project leads to control what is added to the master branch. These conveniences allow for continuous integration and delivery of software.
+- Marketing. 
 - Product Management.
 - Designers.
 - Customer Support.
