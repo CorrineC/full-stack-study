@@ -63,3 +63,9 @@ An SSH key is a credential for the secure shell network protocol. It is used for
 # Git Archive
 
 The `git archive` command creates an archive file from a specified reference point in a git repository. It has several output formats that utilize additional compression.
+
+# GitOps
+
+GitOps is a tool that enables a live syncing pull request workflow. Pull requests promote visibility to changes, which sparks communication. This workflow has been widely adopted by systems administration, whose previously custom and cobbled toolchains were not regularly documented or shared. GitOps acts as Infrastructure as Code (IaC), which helped systems administrators break away from imperative configuration scripts to something more declarative; instead of following a sequence of commands, declarative software works to meet an expected state.
+
+GitOps also automatically syncs the state of the live system to match the state of the static repository. Platforms like Jenkins and CircleCi act as pipelines to automate this process.
