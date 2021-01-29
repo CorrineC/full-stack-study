@@ -2,7 +2,7 @@
 
 HTML is a language used to describe content and structure of documents.
 
-## HTML Tags
+## Tags
 
 - Tags don't need closers if they don't enclose content
 
@@ -11,8 +11,13 @@ HTML is a language used to describe content and structure of documents.
 `<body></body>` - body
 `<div></div>` - div (container that divides page into sections; useful for applying CSS styles to a group of elements)
 
-`<h1> to <h6>` - headers
-`<p>Stuff</p>` - paragraph
-`<img src="link.jpg"/>` - image
-`<br/>` - break
 `<a> href=""</a>` - anchor (link)
+`<br/>` - break
+`<h1> to <h6>` - headers
+`<img src="link.jpg"/>` - image
+`<p>Stuff</p>` - paragraph
+`<span></span>`    -   separates small pieces of text
+
+## Attributes
+
+`id` - section identifier
