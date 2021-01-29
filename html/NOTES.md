@@ -22,7 +22,13 @@ HTML is a language used to describe content and structure of documents.
 `<span></span>` - separates small pieces of text
 `<strong></strong>` - bold
 `<ul></ul>` - unordered list
+`<video src="" width="" height="" controls>Video not supported</video>` - video
 
 ## Attributes
 
+`alt` - alternative text; caption for images
+`controls` - loads basic video controls
+`height` - height (will auto adjust with width)
 `id` - section identifier
+`src` - image source URL
+`width` - width
