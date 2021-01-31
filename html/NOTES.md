@@ -10,7 +10,7 @@ HTML (declarative) is a language used to describe content and structure of docum
 - Images can be links.
 - Whitespace is your friend.
 
-### Tags
+### Common Tags
 
 - Tags don't need closers if they don't enclose content
 
