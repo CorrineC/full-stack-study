@@ -19,7 +19,7 @@ HTML (declarative) is a language used to describe content and structure of docum
 
 `<head></head>` - contains page metadata
 
-`<a> href=""</a>` - anchor (link)
+`<a> href=""</a>` - anchor (link); can link to target ids w/ `#`
 
 `<br/>` - break
 
