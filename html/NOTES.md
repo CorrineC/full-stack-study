@@ -2,17 +2,19 @@
 
 HTML (declarative) is a language used to describe content and structure of documents.
 
-## Notes
+## Elements and Structure
+
+### Notes
 
 - Add `<!DOCTYPE html>` to the beginning of every html doc to make sure the browser interprets your code correctly. You still have to include `<html></html>`.
 - Images can be links.
 - Whitespace is your friend.
 
-## Tags
+### Tags
 
 - Tags don't need closers if they don't enclose content
 
-### Section Tags
+#### Section Tags
 
 `<body></body>` - information displayed directly on page
 
@@ -46,7 +48,7 @@ HTML (declarative) is a language used to describe content and structure of docum
 
 `<video src="" width="" height="" controls>Video not supported</video>` - video
 
-## Attributes
+### Attributes
 
 `alt` - alternative text; caption for images
 
@@ -63,3 +65,5 @@ HTML (declarative) is a language used to describe content and structure of docum
 `target` - (anchor attribute) specifies how link should be opened; value `"_blank"` means open in new tab
 
 `width` - width
+
+## Tables
