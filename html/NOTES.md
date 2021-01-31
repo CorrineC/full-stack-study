@@ -67,3 +67,5 @@ HTML (declarative) is a language used to describe content and structure of docum
 `width` - width
 
 ## Tables
+
+`<table>` - creates table
