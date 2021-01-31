@@ -6,6 +6,7 @@ HTML (declarative) is a language used to describe content and structure of docum
 
 - Add `<!DOCTYPE html>` to the beginning of every html doc to make sure the browser interprets your code correctly. You still have to include `<html></html>`.
 - Images can be links.
+- Whitespace is your friend.
 
 ## Tags
 
