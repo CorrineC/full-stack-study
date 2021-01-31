@@ -1,6 +1,10 @@
 # HTML
 
-HTML is a language used to describe content and structure of documents.
+HTML (declarative) is a language used to describe content and structure of documents.
+
+## Notes
+
+- Add `<!DOCTYPE html>` to the beginning of every html doc to make sure the browser interprets your code correctly. You still have to include `<html></html>`.
 
 ## Tags
 
@@ -8,8 +12,9 @@ HTML is a language used to describe content and structure of documents.
 
 ### Section Tags
 
-`<body></body>` - body
+`<body></body>` - information displayed directly on page
 `<div></div>` - div (container that divides page into sections; useful for applying CSS styles to a group of elements)
+`<head></head>` - contains page metadata
 
 `<a> href=""</a>` - anchor (link)
 `<br/>` - break
@@ -21,6 +26,7 @@ HTML is a language used to describe content and structure of documents.
 `<p>Stuff</p>` - paragraph
 `<span></span>` - separates small pieces of text
 `<strong></strong>` - bold
+`<title></title>` - webpage name
 `<ul></ul>` - unordered list
 `<video src="" width="" height="" controls>Video not supported</video>` - video
 
