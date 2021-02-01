@@ -68,4 +68,18 @@ HTML (declarative) is a language used to describe content and structure of docum
 
 ## Tables
 
+Tables can be split into a head (`<thead>`), body (`<tbody>`), and footer (`<tfoot>`).
+
 `<table>` - creates table
+
+`<td colspan="3">` - table data
+
+`<th>` - table heading
+
+`<tr>` - table row
+
+### Table Attributes
+
+`colspan` - data can span columns
+
+`rowspan` - data can span rows
