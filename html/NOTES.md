@@ -83,3 +83,12 @@ Tables can be split into a head (`<thead>`), body (`<tbody>`), and footer (`<tfo
 `colspan` - data can span columns
 
 `rowspan` - data can span rows
+
+## Forms
+
+The `<form>` element is useful for HTTP requests.
+
+`<form action="/example.html" method="POST"></form>`
+
+The `action` attribute is where the info is sent.
+The `method` attribute determines what transformation will be used on the info (HTTP verbs like POST are not case-sensitive; POST is capitalized out of convention).
