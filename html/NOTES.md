@@ -95,3 +95,5 @@ The `action` attribute is where the info is sent.
 The `method` attribute determines what transformation will be used on the info (HTTP verbs like POST are not case-sensitive; POST is capitalized out of convention).
 
 The `<input/>` element has a `type` attribute which determines how the element shows up and interacts on a web page. Additionally, if we want to submit the form, we need to include the `name` attribute as well. The `value` prefills the input field.
+
+The `<label>` element specifies which input id to target.
