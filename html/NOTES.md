@@ -122,3 +122,17 @@ A `<textarea>` is a customizable text field.
 `<textarea rows="3" cols="40">Sample text here.</textarea>`
 
 When a form is submitted the fields that accept input are sent as name=value pairs.
+
+### Form Validations
+
+Client-side validation checks input data on the browser and verifies it before sending it to the server. It saves time, protects the server from malicious code or data, and allows for quick feedback to users.
+
+Input fields in a form that are not optional can be enforced with the `required` attribute.
+
+`<input id="allergies" name="allergies" type="text" required/>`
+
+We can also require min and max values for number and range fields, and minlength and maxlength values for the number of characters in a text field.
+
+The `pattern` attribute can be assign a regular expression (regex). Inputs must match the regex to be submitted.
+
+For example, a valid credit card would match the pattern "[0-9]{14,16}". Valid cards contain only numbers and 14-16 digits in total.
