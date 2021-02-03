@@ -94,8 +94,31 @@ The `action` attribute is where the info is sent.
 
 The `method` attribute determines what transformation will be used on the info (HTTP verbs like POST are not case-sensitive; POST is capitalized out of convention).
 
-The `<input/>` element has a `type` attribute which determines how the element shows up and interacts on a web page. Additionally, if we want to submit the form, we need to include the `name` attribute as well. The `value` prefills the input field.
+The `<input/>` element has a `type` attribute which determines how the element shows up and interacts on a web page.
+
+Setting `type` to:
+
+- "text" : creates field for text input
+- "password" : creates field that censors text input
+- "number" : creates field for number input
+- "range" : creates slider to select from range of numbers
+- "checkbox" : creates checkbox
+- "radio" : creates radio button
+- "list" : pairs inputs a datalists of the same id
+- "submit" : creates submit button
+
+Additionally, if we want to submit the form, we need to include the `name` attribute as well. The `value` prefills the input field.
 
 The `<label>` element specifies which input id to target.
 
 // Do these attributes have a conventional order? //
+
+The `<select>` element uses `<option>` to render dropdown lists.
+
+The `<datalist>` element uses `<option>` and works with `<input/>` to search choices.
+
+A `<textarea>` is a customizable text field.
+
+`<textarea rows="3" cols="40">Sample text here.</textarea>`
+
+When a form is submitted the fields that accept input are sent as name=value pairs.
