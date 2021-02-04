@@ -136,3 +136,9 @@ We can also require min and max values for number and range fields, and minlengt
 The `pattern` attribute can be assign a regular expression (regex). Inputs must match the regex to be submitted.
 
 For example, a valid credit card would match the pattern "[0-9]{14,16}". Valid cards contain only numbers and 14-16 digits in total.
+
+## Semantic HTML
+
+Semantic HTML is useful for accessibility, search engine optimization, and understandability. Screen readers and browsers are better able to interpret code, search engines are more likely to identify your website's content, and developers find semantic HTML easier to read?
+
+A `<header>` container usually contains navigational links and introductory content. `<nav>` contains a block of navigation links. It can be used in a header or on its own.
