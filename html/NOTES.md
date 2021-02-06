@@ -141,4 +141,12 @@ For example, a valid credit card would match the pattern "[0-9]{14,16}". Valid c
 
 Semantic HTML is useful for accessibility, search engine optimization, and understandability. Screen readers and browsers are better able to interpret code, search engines are more likely to identify your website's content, and developers find semantic HTML easier to read?
 
-A `<header>` container usually contains navigational links and introductory content. `<nav>` contains a block of navigation links. It can be used in a header or on its own.
+A `<header>` container usually contains navigational links and introductory content. `<nav>` contains a block of navigation links. It can be used in a header or on its own. The `<main>` element encapsulates the main content on a webpage, including `<section>`s (elements in a document with the same theme) `<article>`s (element that holds content which makes sense on its own); `<footer>` contains contact info, copyright info, terms of use, site maps, and reference to top page links. The `<aside>` element can be used for additional information such as bibliographies, endnotes, comments, pull quotes, and sidebars.
+
+The elements `<figure>` and `<figcaption>` are like an aside with images.
+
+The `<audio>` tag also exists. A `<source/>` element is place inside it.
+
+// Why? //
+
+`<video>` : uses attributes like `controls`, `autoplay`, `loop`. `<embed/>` exists, but it's deprecated.
