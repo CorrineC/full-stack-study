@@ -7,3 +7,5 @@ CSS, or _Cascading Style Sheets_ is the language used to style HTML content on a
 ### Inline Styles
 
 You can use the `style` attribute to place CSS directly into an HTML file. The attribute is placed in the opening tag and follows the traditional CSS format. Multiple styles can be added under one `style` tag.
+
+HTML also allows you to write CSS code in a dedicated section called the `<style>` tag. It must be placed inside the `<head>` element.
