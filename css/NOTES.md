@@ -65,3 +65,17 @@ The selector `.main p{}` would not affect _all_ paragraph elements; only those p
 ### Multiple Selectors
 
 If multiple selectors have repetitive style attributes, you can avoid that repetition by separating the selectors by a comma to style both.
+
+## CSS Visual Rules
+
+**font-family** : When deciding typeface, keep in mind:
+
+1. A specified font in a stylesheet must be installed on a user's computer to display on the webpage.
+2. Default typeface is *Times New Roman*.
+3. Having too many typefaces slows down page loading.
+4. If a typeface consists of more than one word, enclose it in quotes.
+
+**font-size** : The font size is measured in *px*, or pixels.
+
+**font-weight** : This controls how thin or bold text looks. Values include *bold* and *normal*.
+
