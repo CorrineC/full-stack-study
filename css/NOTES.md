@@ -41,3 +41,27 @@ If an HTML element needs to be styled uniquely, we can use the `id` attribute. T
 ### Classes and IDs
 
 Classes and IDs are used for different purposes. Classes are meant to be reused for many elements, while IDs should style only one element. This is because IDs override tag and class styles. You should avoid overuse of ID tags.
+
+CSS best practice styles elements using the lowest degree of specificity, so that styles are easy to override when necessary. If possible, use a tag selector. If not, use a class selector. If even that is not enough, use an ID selector.
+
+### Chaining Selectors
+
+It is possible to have elements with multiple selectors. If you wanted to style selective h1 elements a certain way, you can chain a class selector to a tag selector:
+
+`h1.special {}`
+
+This _only_ affects `<h1>` elements that carry the `class` value _"special"_. It would not affect any other element type to carry that class.
+
+### Nested Elements
+
+If HTML elements are nested within other elements (e.g. list items), you can style them by assigning a class to the outer element, then specify the element you want to style.
+
+`.main-list li {}` targets the list items inside an ordered/unordered list whose class is `main-list`.
+
+### More on Chaining
+
+The selector `.main p{}` would not affect _all_ paragraph elements; only those paragraphs inside the `.main` element would be affected. It overrides any more general paragraph rule that exists.
+
+### Multiple Selectors
+
+If multiple selectors have repetitive style attributes, you can avoid that repetition by separating the selectors by a comma to style both.
