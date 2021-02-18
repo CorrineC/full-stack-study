@@ -71,11 +71,23 @@ If multiple selectors have repetitive style attributes, you can avoid that repet
 **font-family** : When deciding typeface, keep in mind:
 
 1. A specified font in a stylesheet must be installed on a user's computer to display on the webpage.
-2. Default typeface is *Times New Roman*.
+2. Default typeface is _Times New Roman_.
 3. Having too many typefaces slows down page loading.
 4. If a typeface consists of more than one word, enclose it in quotes.
 
-**font-size** : The font size is measured in *px*, or pixels.
+**font-size** : The font size is measured in _px_, or pixels.
 
-**font-weight** : This controls how thin or bold text looks. Values include *bold* and *normal*.
+**font-weight** : This controls how thin or bold text looks. Values include _bold_ and _normal_.
 
+**text-align** : This property will align to its parent. It can align to the _left_ hand side, _right_ hand side, or _center_ of its parent.
+
+**color** : Color can affect the foreground and the background.
+
+- _color_ : the color an element appears in
+- _background-color_ : the color that appears in the background
+
+**opacity** : Measured from 0 to 1, 1 is fully visible and 0 is fully invisible.
+
+**background-image** : We can change the background of an element into an image. The value provided must be a url, which is written as `url("example.jpg")`.
+
+**!important** : Applied to specific attributes, this will override _any_ style regardless of its specificity. A justification for its use is when working with multiple stylesheets.
