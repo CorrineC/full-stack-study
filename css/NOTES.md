@@ -91,3 +91,14 @@ If multiple selectors have repetitive style attributes, you can avoid that repet
 **background-image** : We can change the background of an element into an image. The value provided must be a url, which is written as `url("example.jpg")`.
 
 **!important** : Applied to specific attributes, this will override _any_ style regardless of its specificity. A justification for its use is when working with multiple stylesheets.
+
+## The Box Model
+
+The box model allows the browser to interpret elements on a webpage as though they existed within a box.
+
+The box model's properties are:
+
+- width/height : width/height of content area
+- padding : space between the content area and border
+- border : thickness and style of the border
+- margin : amount of space between border and outside edge of the element
