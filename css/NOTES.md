@@ -124,3 +124,15 @@ If one or more of these values are not set, as in the example below, the browser
 You can change the corners of a border with `border-radius`. This can be set either with pixels or percentages.
 
 ### Padding
+
+Padding expands background color beyond the content area. The `padding` element allows you to set padding for each side of the box by a specfied number of pixels. You can also be more specific by using `padding-top`, `padding-right`, `padding-bottom`, and `padding-left`.
+
+Setting padding for each side one by one is too much work. Instead, we can specify them in a single declaration. Starting from the top, we can declare padding in a clockwise rotation, like so:
+
+`padding: 6px 10px 12px 5px;`
+
+If top and bottom equal each other, and left and right equal each other, we can use this shortcut:
+
+`padding: 5px 6px;`
+
+### Margins
