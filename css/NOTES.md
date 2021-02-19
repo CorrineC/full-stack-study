@@ -136,3 +136,11 @@ If top and bottom equal each other, and left and right equal each other, we can 
 `padding: 5px 6px;`
 
 ### Margins
+
+Margin specifies the size of the space directly outside the box. This is written using the same rules as padding.
+
+Margin is unique from padding in that it allows you to center content using the value _auto_. In order to center an element, you must also set the element's **width**.
+
+### Margin Collapse
+
+Vertical margins collapse (padding does not), while horizontal margins and padding are always added together.
