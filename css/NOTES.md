@@ -98,7 +98,29 @@ The box model allows the browser to interpret elements on a webpage as though th
 
 The box model's properties are:
 
-- width/height : width/height of content area
+- width/height : width/height of content area, measured by pixels
 - padding : space between the content area and border
 - border : thickness and style of the border
 - margin : amount of space between border and outside edge of the element
+
+### Borders
+
+Borders can be set with a width, style, and color.
+
+- **width** : A border's thickness. Can be set in pixels or with _thin_, _medium_, or _thick_.
+- **style** : Border design. Check [MDN Web Docs](#https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#values) for different styles.
+- **color** : Color of the border.
+
+The default border is:
+
+`border: medium none color;`
+
+If one or more of these values are not set, as in the example below, the browser assigns the default value.
+
+`border: solid red;`
+
+### Border Radius
+
+You can change the corners of a border with `border-radius`. This can be set either with pixels or percentages.
+
+### Padding
