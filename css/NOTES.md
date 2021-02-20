@@ -164,3 +164,9 @@ Overflow controls what happens when content overflows from the box. It can be se
 In the absence of an external stylesheet, browsers have default values for margin and padding. This can sometimes cause problems for developers, so resetting these defaults ensures you are working with a clean slate.
 
 `* { margin: 0; padding: 0; }`
+
+### Visibility
+
+Elements can be hidden from view with **visibility**. This has two values: _hidden_ and _visible_.
+
+The difference between **visibility**: _hidden_ and **display**: _none_ is that **display** removes the element from the web page completely, while **visibility** will still have space reserved for it, and can still be viewed by users looking at the source code in their browser.
