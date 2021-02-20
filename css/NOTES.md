@@ -144,3 +144,23 @@ Margin is unique from padding in that it allows you to center content using the 
 ### Margin Collapse
 
 Vertical margins collapse (padding does not), while horizontal margins and padding are always added together.
+
+### Minimum and Maximum Height and Width
+
+To avoid issues with screen size changes, CSS can limit the range of widths and heights the element's box can be sized to.
+
+This is done with **min-width**, **max-width**, **min-height**, and **max-height**.
+
+### Overflow
+
+Overflow controls what happens when content overflows from the box. It can be set to:
+
+- _hidden_ : overflow content is hidden
+- _scroll_ : a scrollbar is added to scroll content
+- _visible_ : overflow is displayed outside the box
+
+### Resetting Defaults
+
+In the absence of an external stylesheet, browsers have default values for margin and padding. This can sometimes cause problems for developers, so resetting these defaults ensures you are working with a clean slate.
+
+`* { margin: 0; padding: 0; }`
