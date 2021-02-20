@@ -170,3 +170,13 @@ In the absence of an external stylesheet, browsers have default values for margi
 Elements can be hidden from view with **visibility**. This has two values: _hidden_ and _visible_.
 
 The difference between **visibility**: _hidden_ and **display**: _none_ is that **display** removes the element from the web page completely, while **visibility** will still have space reserved for it, and can still be viewed by users looking at the source code in their browser.
+
+### Changing the Box Model
+
+Under the default box model, padding and border thickness affect the overall dimensions of the box, making it difficult to accurately size.
+
+We can use the **box-sizing** property to change the type of box model the browser should use. Its default value is _content-box_, but we can change it to _border-box_, which includes border thickness and padding in the overall dimensions. This way, we only need to specify the overall height and width of the content box, and the border thickness and padding will be subtracted from those dimensions instead of added to it.
+
+If you want to implement the new box model for all elements in the browser, use the universal selector (`*`).
+
+## Display and Positioning
