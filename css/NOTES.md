@@ -180,3 +180,8 @@ We can use the **box-sizing** property to change the type of box model the brows
 If you want to implement the new box model for all elements in the browser, use the universal selector (`*`).
 
 ## Display and Positioning
+
+### Position
+
+The **position** of an element can be set to four values: *static* (default), *relative*, *absolute*, and *fixed*.
+
