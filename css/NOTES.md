@@ -211,3 +211,32 @@ In CSS, we can apply this value to any element to make it appear inline with ano
 ### Block Display
 
 These elements include all levels of heading elements and differ from inline elements in that they are not displayed on the same line as content around them.
+
+### Inline-Block Display
+
+This value combines the features of the previous two.
+
+### Float
+
+The **float** property is used to move an element as far to the _left_ or _right_ of a container as possible.
+
+### Clear
+
+**Clear** specifies how elements should behave when they run up against each other on a page.
+
+- _left_: the left side of the element will not touch any element within the same container
+- _right_: the right side will not touch any element in the same container
+- _both_: neither side will
+- _none_: the element can touch either side
+
+## Color
+
+Colors are portrayed in four formats: named colors, hexadecimal, rgb, and hsl.
+
+### Foreground vs Background
+
+Foreground color affects the color of the element. Background color affects the space behind the element.
+
+### Hexadecimal
+
+Color can be portrayed as hexadecimals: 6 digits fronted by a #. If pairs of the hexadecimal are the same it can be shortened to 3 digits.
