@@ -183,5 +183,31 @@ If you want to implement the new box model for all elements in the browser, use 
 
 ### Position
 
-The **position** of an element can be set to four values: *static* (default), *relative*, *absolute*, and *fixed*.
+The **position** of an element can be set to four values: _static_ (default), _relative_, _absolute_, and _fixed_.
 
+_relative_ - position relative to its static position. Positioned using offset properties
+
+- top - moves element down
+- bottom - moves element up
+- left - moves element right
+- right - moves element left
+
+_absolute_ - position for element will be ignored by all other elements on page
+
+_fixed_ - element will remain in a specific position on page regardless of scrolling
+
+### Z-Index
+
+The **z-index** refers to the depth of elements. The greater the index, the more shallow the element.
+
+### Inline Display
+
+**Display** property has three values: _inline_, _block_, and _inline-block_.
+
+Inline elements take up only the space necessary to fulfill their purpose. These include elements like `<em>`, `<strong>`, and `<a>`, which are often found inline with another element.
+
+In CSS, we can apply this value to any element to make it appear inline with another element.
+
+### Block Display
+
+These elements include all levels of heading elements and differ from inline elements in that they are not displayed on the same line as content around them.
